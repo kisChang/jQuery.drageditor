@@ -1,0 +1,19 @@
+{
+  "name": "jQuery.drageditor",
+  "version": "0.0.1",
+  "author": {
+    "name": "KisChang"
+  },
+  "scripts": {
+    "build" : "uglifyjs jquery-drageditor.js -m -o build/jquery-drageditor.min.js"
+  },
+  "dependencies": {
+    "jquery": ">= 1.7"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/mit-license.php"
+    }
+  ]
+}
